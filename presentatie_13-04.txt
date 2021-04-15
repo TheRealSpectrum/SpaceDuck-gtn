@@ -1,0 +1,53 @@
+Agenda
+
+Introductie:
+- Hey allemaal, welkom bij onze presentatie. Ik wil graag even vragen of ik goed hoorbaar ben en ons beeld zichtbaar is. Misschien even duimpje omhoog als het ok is.
+- Ik zal ons even voorstellen, wij zijn Team Spaceduck. Ik ben Malou en mijn "klikker" is Patricia.
+- We hebben de volgende presentatie voor jullie voorbereid en ik zal even door de agenda punten heenlopen.
+	- Introductie (deze hebben we net gehad)
+	- Kort vertellen over wat we hebben gedaan
+	- Een visuele demonstratie van de game "Guess the number"
+	- Een kijkje achter de schermen van de code van deze game
+	- En tot slot, een korte afsluiting
+
+Wat hebben we gedaan:
+- De afgelopen weken zijn we begonnen met een intro in php
+- We hebben, onder andere, geleerd en geoefend met het maken van variables, arrays, ifelse statements en functions
+- We hebben ook een begin gemaakt met git en github om zo samen in een gedeelde folder, samen aan projecten te werken
+- Dit allemaal hebben we toegepast in een guess the number game en die laten we nu even zien (switchen naar browser)
+
+Project:
+- Wat doet het:
+	- Je hebt een pagina met een invul veld en de tekst  "raad een nummer tussen 0 en 100" 
+	- Het doel is om het juiste nummer te raden
+	- We vullen nu een nummer in en klik op enter (vul nummer in)
+	- En dan zien we dat we 1 keer geraden hebben  (even highlighten)
+	- en of we hoger of lager moeten raden (expres hoger en lager raden)
+	- Daaronder zien we een lijst verschijnen met het getal wat we net geraden hebben (ook even highlighten)
+	- Voeren we nog een nummer in (1 nummer erbij toevoegen)
+	- Dan update de teller en wordt het nieuwe nummer aan de lijst toegevoegd (weer even highlighten)
+	- En dit gebeurd tot we het goeie nummer geraden hebben (het spel proberen uit spelen)
+	- Gefeliciteerd, we hebben het goeie nummer geraden! En dat verdient een dansje van Elmo
+	- Daarbeneden staat ook nog het lijstje van de geraden nummers (even naar beneden scrollen)
+	- En dan kunnen we als we willen, weer opnieuw beginnen ( try again klikken en dan switchen naar code)
+
+- Wat gebeurd er achter de schermen: 
+	-  Bovenaan hebben we html met een form waar we het getal inputten (even highlighten)
+	- In dit form wordt de input doorgesteurd naar de rest van de code 
+	- Hierna komt de php
+	- We creeeren een random nummer en stoppen die in een variable (rand highlighten)
+	- Ook wordt dit nummer gebonden aan de session, zodat deze niet elke keer reset, allen als wij dat willen
+	- Vervolgens creeeren we een session counter, deze houdt bij hoe vaak er al geraden is (counter highlighten)
+	- Deze update alleen als er ook daadwerkelijk een nummer geraden wordt
+	- Dan gaan we checken of het ingevoerde nummer overeenkomt met het net aangemaakte random nummer
+	- Als het ingevoerde nummer hoger is dan het random nummer, dan krijg je te zien dat je lager moet gaan gokken (highlighten)
+	- En als het te laag is, komt er te staan dat je hoger moet gaan gokken (highlighten)
+	- Als je het goeie nummer geraden hebt, verblijdt Elmo je met zijn aanwezigheid, en wordt de session afgesloten (session kill highlighten)
+	- Als laatste maken we een array aan die al je geraden nummers bijhoudt (guesses highlighten)
+	- Ook deze gebonden aan je session
+	- En dit is kort hoe verteld hoe het werkt (terug switchen naar agenda)
+
+Afsluiting:
+- Hopelijk hebben we jullie hier voldoende mee geinformeerd
+- En wil ik jullie bedanken voor jullie aandacht
+- Zijn er nog vragen en of opmerkingen?
